@@ -1,0 +1,22 @@
+.default__input {
+    width: 19.625rem;
+    height: 2.5rem;
+    top: 2.1313rem;
+    padding: 0 1rem;
+    border-radius: var(--radius-1);
+    border: 2pt solid var(--color-grey-2);
+    box-sizing: border-box;
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-3);
+
+    &:focus {
+        border: 2pt solid var(--color-grey-3);
+        color: var(--color-grey-4);
+    }
+}
+
+@media (max-width: 725px) {
+    .default__input {
+        width: 7.8125rem;
+    }
+}
