@@ -1,0 +1,56 @@
+.default__button {
+    width: max-content;
+    height: 3.75rem;
+    font-family: 'Inter', sans-serif;
+    padding: var(--gap-1) var(--gap-1);
+    background-color: var(--color-default-button);
+    color: var(--color-white-fixed);
+    border-radius: var(--radius-1);
+    border: none;
+    font-size: var(--font-title-4);
+    font-weight: var(--font-weight-2);
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--color-primary);
+    }
+}
+
+.form__button {
+    width: 19.625rem;
+}
+
+.medium__button {
+    width: max-content;
+    height: 2.5rem;
+    font-family: 'Inter', sans-serif;
+    padding: 0 var(--gap-1);
+    background-color: var(--color-default-button);
+    color: var(--color-white-fixed);
+    border-radius: var(--radius-1);
+    border: none;
+    font-size: var(--font-title-4);
+    font-weight: var(--font-weight-2);
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--color-primary);
+    }
+}
+
+.close__button,
+.remove__button,
+.cart__button,
+.search__button {
+    border: none;
+    background-color: inherit;
+}
+
+.close__button {
+    color: var(--color-white-opacity);
+}
+
+.remove__button,
+.cart__button {
+    color: var(--color-default-button);
+}

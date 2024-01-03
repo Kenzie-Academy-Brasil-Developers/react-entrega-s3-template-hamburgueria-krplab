@@ -1,0 +1,42 @@
+.font-title-1 {
+    font-size: var(--font-title-1);
+    font-weight: var(--font-weight-1);
+}
+
+.font-title-2 {
+    font-size: var(--font-title-2);
+    font-weight: var(--font-weight-1);
+}
+
+.font-title-3 {
+    font-size: var(--font-title-3);
+    font-weight: var(--font-weight-1);
+}
+
+.font-headline {
+    font-size: var(--font-title-4);
+    font-weight: var(--font-weight-3);
+}
+
+.font-body {
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-3);
+}
+
+.font-body-600 {
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-2);
+}
+
+.font-caption {
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-3);
+}
+
+.price {
+    color: var(--color-primary);
+}
+
+.category {
+    color: var(--color-grey-3);
+}
