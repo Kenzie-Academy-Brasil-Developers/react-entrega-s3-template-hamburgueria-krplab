@@ -1,0 +1,15 @@
+.buttonsList {
+    display: flex;
+
+    @media (max-width: 725px) {
+        padding-left: 1.75rem;
+    }
+
+    li {
+        margin-right: 1rem;
+
+        .selectedCat {
+            background-color: var(--color-primary);
+        }
+    }
+}
